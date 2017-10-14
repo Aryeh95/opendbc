@@ -41,8 +41,10 @@ BO_ 947 TURN_SIGNALS: 8 XXX
  SG_ RIGHT_TS : 63|2@0+ (1,0) [0|1] "" XXX
  SG_ REPORT_LTS : 54|1@0+ (1,0) [0|1] "" XXX
  SG_ REPORT_RTS : 35|1@0+ (1,0) [0|1] "" XXX
- SG_ NEW_SIGNAL_1 : 7|4@0+ (1,0) [0|1] "" XXX
- SG_ NEW_SIGNAL_2 : 43|4@0+ (1,0) [0|1] "" XXX
+ SG_ REPORT_PHARES : 2|1@0+ (1,0) [0|1] "" XXX
+ SG_ PHARES : 20|1@0+ (1,0) [0|1] "" XXX
+ SG_ RETRO_GAUCHE : 7|4@0+ (1,0) [0|1] "" XXX
+ SG_ RETRO_DROITE : 43|4@0+ (1,0) [0|1] "" XXX
 
 BO_ 357 BRAKE_PEDAL: 8 XXX
  SG_ _REPORT_BRAKE : 36|1@0+ (1,0) [0|1] "" XXX
@@ -118,5 +120,7 @@ BO_ 391 _SIGNALS: 8 XXX
 
 
 
+CM_ SG_ 947 PHARES "ON OFF";
+CM_ SG_ 947 RETRO_DROITE "BLIS ?";
 CM_ SG_ 560 _UNKNOWN "avant ou arriere";
 CM_ SG_ 1045 _SIGNAL_1 "deplacement du vehicule";
