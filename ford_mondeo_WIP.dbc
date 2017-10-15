@@ -118,11 +118,19 @@ BO_ 391 _SIGNALS: 8 XXX
  SG_ _VOLTAGE2 : 47|8@0+ (1,0) [0|255] "" XXX
  SG_ _SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 133 NEW_MSG_6: 8 XXX
+BO_ 133 _STEERING: 8 XXX
+ SG_ _STEER : 7|16@0+ (1,0) [0|65535] "" XXX
 
-BO_ 146 NEW_MSG_8: 8 XXX
+BO_ 146 _SENSORS: 8 XXX
+ SG_ _SIGNAL_2 : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ _SIGNAL_1 : 23|16@0+ (1,0) [0|65535] "" XXX
+ SG_ _SIGNAL_3 : 47|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 63|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 55|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 330 NEW_MSG_9: 8 XXX
+BO_ 330 _SPEED: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|2@0+ (1,0) [0|255] "" XXX
+ SG_ _SPEED : 23|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 359 NEW_MSG_10: 8 XXX
  SG_ NEW_SIGNAL_2 : 23|8@0+ (1,0) [0|255] "" XXX
@@ -139,5 +147,7 @@ CM_ SG_ 947 PHARES "ON OFF";
 CM_ SG_ 947 RETRO_DROITE "BLIS ?";
 CM_ SG_ 560 _UNKNOWN "avant ou arriere";
 CM_ SG_ 1045 _SIGNAL_1 "deplacement du vehicule";
+CM_ SG_ 146 _SIGNAL_1 "G-FORCE ?";
+CM_ SG_ 330 _SPEED "or acceleration ?";
 CM_ SG_ 359 NEW_SIGNAL_1 "related to motor";
 CM_ SG_ 118 _DIRECTION "GO AHEAD (3) OR GO REAR (1) ?";
