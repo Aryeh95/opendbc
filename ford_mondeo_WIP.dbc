@@ -50,11 +50,11 @@ BO_ 357 BRAKE_PEDAL: 8 XXX
  SG_ ACC_ENABLED : 8|1@0+ (1,0) [0|3] "" XXX
  SG_ ACC_STATUS : 16|1@0+ (1,0) [0|255] "" XXX
  SG_ ACC_BRAKE : 41|1@0+ (1,0) [0|1] "" XXX
- SG_ USER_BRAKE : 7|4@0+ (1,0) [0|15] "" XXX
+ SG_ USER_BRAKE : 5|1@0+ (1,0) [0|15] "" XXX
  SG_ REPORT_USER_BRAKE : 36|1@0+ (1,0) [0|1] "" XXX
- SG_ ENGAGED : 9|1@0+ (1,0) [0|1] "" XXX
  SG_ ACC_SET_SPEED : 23|8@0+ (1,0) [0|63] "" XXX
- SG_ _ACC_DISTANCE : 15|6@0+ (1,0) [0|63] "" XXX
+ SG_ _ACC_DISTANCE : 13|5@0+ (1,0) [0|63] "" XXX
+ SG_ NEW_SIGNAL_1 : 15|2@0+ (1,0) [0|3] "" XXX
 
 BO_ 390 NEW_MSG_1: 8 XXX
  SG_ _ACCEL : 15|8@0- (1,0) [0|4095] "" XXX
@@ -134,6 +134,5 @@ CM_ SG_ 947 PHARES "ON OFF";
 CM_ SG_ 947 RETRO_DROITE "BLIS ?";
 CM_ SG_ 357 ACC_ENABLED "0:disabled 1:enabled";
 CM_ SG_ 357 ACC_STATUS "0:inactive 1:active";
-CM_ SG_ 357 ENGAGED "0:acc off 1:acc on (still enabled)";
 CM_ SG_ 560 _UNKNOWN "avant ou arriere";
 CM_ SG_ 1045 _SIGNAL_1 "deplacement du vehicule";
