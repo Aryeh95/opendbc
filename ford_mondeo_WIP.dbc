@@ -159,6 +159,24 @@ BO_ 570 NEW_MSG_3: 8 XXX
 BO_ 146 NEW_MSG_12: 8 XXX
  SG_ EW_SIGNAL_1 : 40|16@1- (1,0) [0|16777215] "" XXX
 
+BO_ 949 NEW_MSG_13: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_2 : 23|16@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 56|3@0+ (1,0) [0|255] "" XXX
+
+BO_ 817 DRIVE_TIME: 8 XXX
+ SG_ DRIVE_TIME_SECONDS : 23|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 939 NEW_MSG_14: 8 XXX
+
+BO_ 818 DRIVE_TIME_IN_SECONDS: 8 XXX
+ SG_ DRIVE_TIME_IN_SECONDS : 15|24@0+ (1,0) [0|65535] "" XXX
+
+BO_ 862 NEW_MSG_15: 8 XXX
+ SG_ NEW_SIGNAL_2 : 39|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_3 : 55|16@0+ (1,0) [0|65535] "" XXX
+ SG_ _SPEED : 31|8@0+ (1,0) [0|255] "" XXX
+
 
 
 
@@ -168,3 +186,4 @@ CM_ SG_ 357 ACC_ENABLED "0:disabled 1:enabled";
 CM_ SG_ 357 ACC_STATUS "0:inactive 1:active";
 CM_ SG_ 560 GEAR_CURRENT "0:N -2:R 1:1 2:2 etc...";
 CM_ SG_ 1045 _SIGNAL_1 "deplacement du vehicule";
+CM_ SG_ 862 _SPEED "related to vehicle move";
