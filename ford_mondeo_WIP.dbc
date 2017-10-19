@@ -48,6 +48,8 @@ BO_ 947 LIGHTS: 8 XXX
  SG_ LEFT_LIGHT : 8|1@0+ (1,0) [0|1] "" XXX
  SG_ LEFT_MIRROR_LIGHT : 9|1@0+ (1,0) [0|1] "" XXX
  SG_ RIGHT_LIGHT : 62|1@0+ (1,0) [0|1] "" XXX
+ SG_ FOG_FRONT : 56|1@0+ (1,0) [0|1] "" XXX
+ SG_ FOG_REAR : 1|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 357 BRAKE_PEDAL: 8 XXX
  SG_ ACC_ENABLED : 8|1@0+ (1,0) [0|3] "" XXX
