@@ -87,8 +87,8 @@ BO_ 535 _WHEELS_SPEED: 8 XXX
  SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 560 GEAR: 8 XXX
- SG_ SHIFTER : 9|3@1+ (1,0) [0|15] "" XXX
  SG_ GEAR_CURRENT : 7|4@0- (1,0) [0|65535] "" XXX
+ SG_ SHIFTER : 9|3@1+ (1,0) [0|15] "" XXX
 
 BO_ 514 _SPEED: 8 XXX
  SG_ SPEED : 55|16@0+ (1,0) [0|65535] "" XXX
@@ -195,8 +195,8 @@ CM_ SG_ 947 PHARES "ON OFF";
 CM_ SG_ 947 RIGHT_MIRROR_LIGHT "BLIS ?";
 CM_ SG_ 357 ACC_ENABLED "0:disabled 1:enabled";
 CM_ SG_ 357 ACC_STATUS "0:inactive 1:active";
-CM_ SG_ 560 SHIFTER "0:P 1:R 2:N 3:D";
 CM_ SG_ 560 GEAR_CURRENT "0:N -2:R 1:1 2:2 etc...";
+CM_ SG_ 560 SHIFTER "0:P 1:R 2:N 3:D 4:S";
 CM_ SG_ 1045 _SIGNAL_1 "deplacement du vehicule";
 CM_ SG_ 118 DRIVE_OR_REVERSE "1:D 0:R";
 CM_ SG_ 862 _SPEED "related to vehicle move";
