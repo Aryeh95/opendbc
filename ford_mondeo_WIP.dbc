@@ -66,7 +66,8 @@ BO_ 947 MISC_REPORT: 8 XXX
  SG_ DOORS_CLOSED : 57|1@0+ (1,0) [0|1] "" XXX
  SG_ _DOORS : 18|1@0+ (1,0) [0|1] "" XXX
  SG_ DOORS_REPORT : 0|1@0+ (1,0) [0|1] "" XXX
- SG_ ALWAYS_ON : 15|1@0+ (1,0) [0|1] "" XXX
+ SG_ _DAY : 14|1@0+ (1,0) [0|1] "" XXX
+ SG_ _NIGHT : 15|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 357 BRAKE_PEDAL: 8 XXX
  SG_ ACC_ENABLED : 8|1@0+ (1,0) [0|3] "" XXX
