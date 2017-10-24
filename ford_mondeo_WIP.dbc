@@ -43,7 +43,6 @@ BO_ 947 LIGHTS: 8 XXX
  SG_ FOG_REAR : 1|1@0+ (1,0) [0|1] "" XXX
  SG_ IGNITION : 36|1@0+ (1,0) [0|3] "" XXX
  SG_ LEFT_MIRROR_MOTOR : 42|1@0+ (1,0) [0|1] "" XXX
- SG_ RIGHT_MIRROR_MOTOR : 40|1@0+ (1,0) [0|1] "" XXX
  SG_ RIGHT_LIGHT_ENABLED : 62|1@0+ (1,0) [0|1] "" XXX
  SG_ RIGHT_LIGHT : 63|1@0+ (1,0) [0|1] "" XXX
  SG_ LEFT_LIGHT : 8|1@0+ (1,0) [0|1] "" XXX
@@ -52,12 +51,17 @@ BO_ 947 LIGHTS: 8 XXX
  SG_ ENGINE_ON : 11|1@0+ (1,0) [0|1] "" XXX
  SG_ START_BUTTON : 7|1@0+ (1,0) [0|1] "" XXX
  SG_ _TBD1 : 57|1@0+ (1,0) [0|1] "" XXX
- SG_ _TBD2 : 25|1@0+ (1,0) [0|1] "" XXX
  SG_ _TBD3 : 28|1@0+ (1,0) [0|1] "" XXX
  SG_ LEFT_LIGHT_ENABLED : 9|1@0+ (1,0) [0|1] "" XXX
  SG_ LEFT_MIRROR_LIGHT : 54|1@0+ (1,0) [0|1] "" XXX
  SG_ RIGHT_MIRROR_LIGHT : 35|1@0+ (1,0) [0|1] "" XXX
  SG_ _RIGHT_BLIS : 41|1@0+ (1,0) [0|1] "" XXX
+ SG_ _DAY_NIGHT : 40|1@0+ (1,0) [0|1] "" XXX
+ SG_ _VEILLEUSES : 21|1@0+ (1,0) [0|1] "" XXX
+ SG_ _MOTEUR_RETRO_GAUCHE : 25|1@0+ (1,0) [0|1] "" XXX
+ SG_ _MOTEUR_RETRO_DROIT : 24|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_1 : 34|1@0+ (1,0) [0|1] "" XXX
+ SG_ NEW_SIGNAL_2 : 33|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 357 BRAKE_PEDAL: 8 XXX
  SG_ ACC_ENABLED : 8|1@0+ (1,0) [0|3] "" XXX
