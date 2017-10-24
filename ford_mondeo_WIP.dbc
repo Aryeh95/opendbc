@@ -108,25 +108,25 @@ BO_ 560 GEAR: 8 XXX
  SG_ SHIFTER : 9|3@1+ (1,0) [0|15] "" XXX
 
 BO_ 514 _SPEED: 8 XXX
- SG_ SPEED : 55|16@0+ (1,0) [0|65535] "" XXX
  SG_ _REAR_MODE : 0|4@1+ (1,0) [0|15] "" XXX
- SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|65535] "" XXX
  SG_ W_SIGNAL_2 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ SPEED : 55|16@0+ (0.01,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_1 : 15|8@0- (1,0) [0|65535] "" XXX
 
 BO_ 1045 _PARK_ASSIST: 8 XXX
- SG_ NEW_SIGNAL_1 : 39|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 55|8@0+ (1,0) [0|255] "" XXX
  SG_ LEFT_BEAM_ANGLE : 47|8@0- (1,0) [0|255] "" XXX
  SG_ RIGHT_BEAM_ANGLE : 63|8@0- (1,0) [0|255] "" XXX
- SG_ _CAR_MOVE : 15|2@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ SPEEDOMETER : 7|16@0+ (0.01,0) [0|255] "" XXX
 
 BO_ 1200 _SIGNALS: 8 XXX
  SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 63|8@0- (1,0) [0|255] "" XXX
- SG_ NEW_SIGNAL_4 : 43|4@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_5 : 51|4@0+ (1,0) [0|1] "" XXX
  SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
- SG_ _SIGNAL_6 : 55|4@0+ (1,0) [0|15] "" XXX
+ SG_ _FORCE_FREIN : 43|4@0+ (1,0) [0|1] "" XXX
+ SG_ _FORCE2_FREIN : 55|4@0+ (1,0) [0|15] "" XXX
 
 BO_ 145 _STEERING_ANGLE: 8 XXX
  SG_ NEW_SIGNAL_2 : 39|16@0+ (1,0) [0|16777215] "" XXX
@@ -229,9 +229,9 @@ BO_ 131 WHEEL_LEFT_BTTN: 8 XXX
  SG_ ACC_BTTN : 38|1@0+ (1,0) [0|1] "" XXX
  SG_ ACC_RES_PLUS : 29|1@0+ (1,0) [0|1] "" XXX
  SG_ ACC_SET_MINUS : 28|1@0+ (1,0) [0|1] "" XXX
- SG_ HIGH_BEAM : 6|1@0+ (1,0) [0|1] "" XXX
  SG_ WIPER : 3|1@0+ (1,0) [0|1] "" XXX
  SG_ LKAS_BTTN : 22|1@0+ (1,0) [0|1] "" XXX
+ SG_ HIGH_BEAM : 6|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 394 NEW_MSG_6: 8 XXX
  SG_ _AUTO_BREAK_ENABLED : 24|1@0+ (1,0) [0|1] "" XXX
@@ -248,6 +248,6 @@ CM_ SG_ 357 ACC_ENABLED "0:disabled 1:enabled";
 CM_ SG_ 357 ACC_STATUS "0:inactive 1:active";
 CM_ SG_ 560 GEAR_CURRENT "0:N -2:R 1:1 2:2 etc...";
 CM_ SG_ 560 SHIFTER "0:P 1:R 2:N 3:D 4:S";
-CM_ SG_ 1045 _CAR_MOVE "deplacement du vehicule";
+CM_ SG_ 1045 SPEEDOMETER "compteur dash";
 CM_ SG_ 118 DRIVE_OR_REVERSE "1:D 0:R";
 CM_ SG_ 862 _SPEED "related to vehicle move";
