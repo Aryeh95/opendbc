@@ -53,9 +53,12 @@ BO_ 947 LIGHTS: 8 XXX
  SG_ LEFT_LIGHT_ENABLED : 9|1@0+ (1,0) [0|1] "" XXX
  SG_ LEFT_LIGHT : 8|1@0+ (1,0) [0|1] "" XXX
  SG_ MOTEUR_OFF : 4|1@0+ (1,0) [0|1] "" XXX
- SG_ STARTING : 7|1@0+ (1,0) [0|1] "" XXX
  SG_ STARTED : 6|1@0+ (1,0) [0|1] "" XXX
  SG_ ENGINE_ON : 11|1@0+ (1,0) [0|1] "" XXX
+ SG_ START_BUTTON : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ _TBD1 : 57|1@0+ (1,0) [0|1] "" XXX
+ SG_ _TBD2 : 25|1@0+ (1,0) [0|1] "" XXX
+ SG_ _TBD3 : 28|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 357 BRAKE_PEDAL: 8 XXX
  SG_ ACC_ENABLED : 8|1@0+ (1,0) [0|3] "" XXX
