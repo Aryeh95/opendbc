@@ -244,9 +244,11 @@ BO_ 394 NEW_MSG_6: 8 XXX
 BO_ 531 EPB_STATE: 8 XXX
  SG_ EPB_STATE : 29|1@0+ (1,0) [0|1] "" XXX
 
-BO_ 1046 NEW_MSG_11: 8 XXX
- SG_ NEW_SIGNAL_1 : 23|8@0+ (1,0) [0|255] "" XXX
- SG_ _LOOP : 0|4@1+ (1,0) [0|15] "" XXX
+BO_ 1046 BRAKE: 8 XXX
+ SG_ NEW_SIGNAL_1 : 19|4@0+ (1,0) [0|255] "" XXX
+ SG_ _LOOP : 0|6@1- (1,0) [0|15] "" XXX
+ SG_ BRAKE : 7|1@0+ (1,0) [0|1] "" XXX
+ SG_ NO_BRAKE : 6|1@0+ (1,0) [0|1] "" XXX
 
 BO_ 1108 _NI: 8 XXX
 
