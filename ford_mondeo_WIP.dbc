@@ -175,7 +175,8 @@ BO_ 359 ENGINE: 8 XXX
  SG_ ENGINE_ON_1 : 6|1@0+ (1,0) [0|1] "" XXX
  SG_ ENGINE_ON_2 : 4|1@0+ (1,0) [0|1] "" XXX
  SG_ _VOLTAGE : 15|8@0+ (1,0) [0|255] "" XXX
- SG_ _REPORT_TORQUE : 47|16@0+ (1,0) [0|65535] "" XXX
+ SG_ _TBD2 : 47|16@0+ (1,0) [0|65535] "" XXX
+ SG_ _TBD : 23|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 950 _RECURRENT: 8 XXX
 
